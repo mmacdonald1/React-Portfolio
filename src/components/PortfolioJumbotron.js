@@ -3,9 +3,9 @@ import React from 'react'
 
 const PortfolioJumbotron = () => {
   return(
-    <Jumbotron>
-      <h1>Hi I'm Melanie</h1>
-      <Button bsStyle="primary">Hire Me</Button>
+    <Jumbotron id="home" className="jumbo-container">
+      <h1 className="jumbo-text">Hi I'm Melanie, a Full Stack Developer.</h1>
+      <Button bsStyle="primary" href="#contact">Hire Me</Button>
     </Jumbotron>
   )
 }

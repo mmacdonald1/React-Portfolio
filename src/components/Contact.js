@@ -3,7 +3,7 @@ import {Well} from 'react-bootstrap'
 
 const Contact = (props) =>{
   return(
-    <Well>
+    <Well id="contact" >
       <h3> Want to work together? </h3>
       <h3> Lets Chat. </h3>
       <p> Shoot me an email! </p>

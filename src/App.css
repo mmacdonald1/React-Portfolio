@@ -30,12 +30,46 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .project-well{
   width:20em;
   margin: 10px;
 }
+
+.jumbo-text{
+  margin: 30px;
+}
+
+.jumbo-container{
+  margin-top: 0px;
+}
+
+.jumbotron {
+  background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+}
+#contact{
+  background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.navbar-container{
+  margin-bottom: 0px;
+}
+
+.well-container{
+  margin: 20px;
+}
+
+.well-title{
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #D3D3D3;
+}
+
 
 @keyframes App-logo-spin {
   from {
