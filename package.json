@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mmacdonald1.github.io/React-Portfolio",
+  "homepage": "http://melmacd.com",
   "dependencies": {
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
