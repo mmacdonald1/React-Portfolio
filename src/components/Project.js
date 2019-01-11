@@ -15,8 +15,8 @@ class Project extends Component{
         <h3>{this.props.project.name}</h3>
         <h4>{this.props.project.technologies}</h4>
         <p>{this.props.project.description}</p>
-        <Button className="first-button" onClick={this.handleUrl} bsStyle="primary">Live Demo</Button>
-        <Button onClick={this.handleGit} bsStyle="primary">Github Repo</Button>
+        <Button className="first-button" onClick={this.handleUrl} bsStyle="success">Live Demo</Button>
+        <Button onClick={this.handleGit} bsStyle="success">Github Repo</Button>
       </Well>
     )
   }

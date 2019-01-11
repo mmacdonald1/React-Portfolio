@@ -47,13 +47,14 @@
 }
 
 .jumbotron {
-  background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-image: url("https://images.pexels.com/photos/1470171/pexels-photo-1470171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
 }
 #contact{
-  background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-  background-size: cover;
+  background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
+  color: #fff;
   margin-bottom: 0px;
+  padding-bottom: 60px;
 }
 
 .navbar-container{
@@ -69,7 +70,19 @@
   padding-bottom: 20px;
   border-bottom: 1px solid #D3D3D3;
 }
+.well{
+  background-image: none;
+}
+.portfolio-pic{
+  width:20em;
+  margin-bottom: 30px;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+}
 
 @keyframes App-logo-spin {
   from {
